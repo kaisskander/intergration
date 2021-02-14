@@ -6,7 +6,7 @@ import server from "../assets/img/server.svg";
 function info() {
     return (
         <div>
-            <section className={"my-5"}>
+            <section className={"my-5 py-5"}>
                 <div className="container px-5">
                     <div className="card infoCard ">
                         <div className="card-body">

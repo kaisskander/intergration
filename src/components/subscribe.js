@@ -3,7 +3,7 @@ import React from "react";
 function subscribe(){
     return(
         <section>
-            <div className="container my-5 px-5 footer">
+            <div className="container my-5 px-5  d-none d-lg-block">
                 <div className="card subscribeCard">
                     <div className="card-body d-flex ">
                         <div className="row align-items-center">

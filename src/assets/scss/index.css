@@ -49,7 +49,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Rubik-Regular;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5533,7 +5533,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Rubik-Regular;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5635,7 +5635,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Rubik-Regular;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9922,6 +9922,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url("../../fonts/Rubik/Rubik-Regular.ttf");
+  src: url("../../fonts/Rubik/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Rubik/Rubik-Regular.woff") format("woff"), url("../../fonts/Rubik/Rubik-Regular.woff2") format("woff2");
+}
 .fs-10 {
   font-size: 1rem !important;
 }
@@ -10655,6 +10660,22 @@ h3 {
   width: 35px;
 }
 
+@media (max-width: 991.98px) {
+  .topContentBg {
+    background-image: url("../../assets/img/TopDescriptionMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .serDesBg {
+    background-image: url("../../assets/img/FeaturesMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .btnSignup {
   width: 150px;
   height: 45px;
@@ -10670,6 +10691,9 @@ h3 {
   height: 60px;
   width: 250px;
   border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px #f53838;
+  -moz-box-shadow: -5px 30px 38px -11px #f53838;
+  box-shadow: -5px 30px 38px -11px #f53838;
 }
 
 .btnSelect {
@@ -10685,6 +10709,9 @@ h3 {
   height: 60px;
   background: #F53838;
   border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px #f53838;
+  -moz-box-shadow: -5px 30px 38px -11px #f53838;
+  box-shadow: -5px 30px 38px -11px #f53838;
 }
 
 .infoCard {
@@ -10700,6 +10727,17 @@ h3 {
   width: 55px;
   height: 55px;
   border-radius: 70px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.bubbleFooter {
+  display: flex;
+  background: #FFFFFF;
+  Width: 33.6px;
+  Height: 33.6px;
+  border-radius: 50%;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -10722,6 +10760,9 @@ h3 {
 .cardPersonalising:hover .btnSelect {
   background-color: #F53838;
   color: white;
+  -webkit-box-shadow: -5px 30px 38px -11px #f53838;
+  -moz-box-shadow: -5px 30px 38px -11px #f53838;
+  box-shadow: -5px 30px 38px -11px #f53838;
 }
 
 .navbar-toggler .line1, .navbar-toggler .line2, .navbar-toggler .line3 {
@@ -10746,10 +10787,6 @@ h3 {
   -webkit-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
   box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
-}
-
-.footer {
-  background-color: #F6F6F6;
 }
 
 /*# sourceMappingURL=index.css.map */

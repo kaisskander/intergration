@@ -1,4 +1,5 @@
 @import "mixins/fonts_mixin";
 
+@include font-face('Rubik-Regular', 'Rubik-Regular', 'Rubik', 'sans-serif');
 @include fontSize();
 

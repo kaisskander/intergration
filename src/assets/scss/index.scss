@@ -8,6 +8,24 @@
   width: 35px;
 }
 
+
+.topContentBg {
+  @include media-breakpoint-down("md"){
+    background-image: url("../../assets/img/TopDescriptionMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.serDesBg{
+  @include media-breakpoint-down("md"){
+    background-image: url("../../assets/img/FeaturesMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
 .btnSignup {
   width: 150px;
   height:45px ;
@@ -23,6 +41,9 @@
   height: 60px;
   width: 250px;
   border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  -moz-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
 
 }
 
@@ -40,6 +61,9 @@
   height: 60px;
   background: #F53838;
   border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  -moz-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
 }
 
 
@@ -56,6 +80,17 @@
   width: 55px;
   height: 55px;
   border-radius: 70px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.bubbleFooter {
+  display: flex;
+  background: #FFFFFF;
+  Width: 33.6px;
+  Height: 33.6px;
+  border-radius: 50%;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -78,6 +113,9 @@
   .btnSelect{
     background-color: #F53838;
     color: white;
+    -webkit-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+    -moz-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+    box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
   }
 }
 
@@ -112,8 +150,4 @@
     box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
   }
 
-
-.footer{
-  background-color: #F6F6F6;
-}
 

@@ -32,8 +32,9 @@ function App() {
                     <Plan></Plan>
                     <Cards></Cards>
                     <Subscribe></Subscribe>
-                    <Footer></Footer>
                 </div>
+
+            <Footer></Footer>
         </div>
     );
 }
