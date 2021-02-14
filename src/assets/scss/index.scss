@@ -3,38 +3,29 @@
 @import "fonts";
 
 
-.logo {
-  height: 36.23px;
-  width: 35px;
-}
 
-
-.topContentBg {
-  @include media-breakpoint-down("md"){
-    background-image: url("../../assets/img/TopDescriptionMobileBG.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-.serDesBg{
-  @include media-breakpoint-down("md"){
-    background-image: url("../../assets/img/FeaturesMobileBG.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-
+//navbar
 .btnSignup {
   width: 150px;
   height:45px ;
   border-radius: 50px;
 }
 
-.borderRight{
-  border-right:  2px solid #EEEFF2;
-  height: 125.57px;
+.logo {
+  height: 36.23px;
+  width: 35px;
+}
+//end of navbar
+
+
+
+//top Content
+.topContentBg {
+  @include media-breakpoint-down("md"){
+    background-image: url("../../assets/img/TopDescriptionMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .btnGetStarted {
@@ -46,34 +37,10 @@
   box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
 
 }
-
-.btnSelect{
-  width: 177.88px;
-  height: 45px;
-  border: 2px solid #F53838;
-  box-sizing: border-box;
-  border-radius: 50px;
-}
+//end of top Content
 
 
-.btnSubscribe{
-  width: 250px;
-  height: 60px;
-  background: #F53838;
-  border-radius: 10px;
-  -webkit-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
-  -moz-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
-  box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
-}
-
-
-.infoCard {
-  border: none!important;
-  -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-  -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-  box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-}
-
+//info bar
 .bubble{
   display: flex;
   background: #FFECEC;
@@ -85,29 +52,40 @@
   justify-content: center;
 }
 
-.bubbleFooter {
-  display: flex;
-  background: #FFFFFF;
-  Width: 33.6px;
-  Height: 33.6px;
-  border-radius: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-
-.card-footer {
-  background: #F6F6F6;
+.infoCard {
   border: none!important;
+  -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
 }
 
 
+//end info bar
+
+
+
+
+
+
+//service description
+.serDesBg{
+  @include media-breakpoint-down("md"){
+    background-image: url("../../assets/img/FeaturesMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+//end of service description
+
+
+
+//cards
 .cardPersonalising {
   width: 330px;
   height: 760px;
   border-radius: 10px;
-
 }
+
 .cardPersonalising:hover {
   border-color: $primary;
   .btnSelect{
@@ -119,35 +97,65 @@
   }
 }
 
+.btnSelect{
+  width: 177.88px;
+  height: 45px;
+  border: 2px solid #F53838;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
 
-.navbar-toggler {
-  .line1, .line2, .line3 {
-    width: 23px;
-    height: 3px;
-    margin: 5px;
-    transition: all 0.4s;
-  }
-  &.show {
-    .line1 {
-      transform: rotate(-45deg) translate(-5px, 6px);
-    }
+.card-footer {
+  background: #F6F6F6;
+  border: none!important;
+}
+//end of cards
 
-    .line2 {
-      opacity: 0;
-    }
 
-    .line3 {
-      transform: rotate(45deg) translate(-5px, -6px);
-    }
-  }
+//subscribe bar
+.btnSubscribe{
+  width: 250px;
+  height: 60px;
+  background: #F53838;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  -moz-box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
+  box-shadow: -5px 30px 38px -11px rgba(245,56,56,1);
 }
 
 .subscribeCard{
-    border-radius: 10px;
-    border: none!important;
-    -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-    -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-    box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
-  }
+  border-radius: 10px;
+  border: none!important;
+  -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+}
+//end of subcribe bar
+
+
+
+
+//footer
+.bubbleFooter {
+  display: flex;
+  background: #FFFFFF;
+  Width: 33.6px;
+  Height: 33.6px;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+//end of footer
+
+
+
+
+
+
+
+
+
+
 
 

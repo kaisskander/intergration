@@ -11,14 +11,14 @@ function info() {
                     <div className="card infoCard ">
                         <div className="card-body">
                             <div className="row justify-content-between pt-3">
-                                <div className={"d-flex align-content-center px-5 "}>
+                                <div className={"d-flex align-content-center px-5  "}>
                                     <div className="bubble"><img src={person} alt=""/></div>
                                         <div className={"mx-5"}>
                                             <h1><b>90+</b></h1>
                                             <p>Users</p>
                                         </div>
                                 </div>
-                                <div className={"d-flex align-content-center px-5 "}>
+                                <div className={"d-flex align-content-center px-5  "}>
                                     <div className="bubble"><img src={location} alt=""/></div>
                                     <div className={"mx-5"}>
                                         <h1><b>30+</b></h1>

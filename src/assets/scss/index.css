@@ -10655,6 +10655,12 @@ h3 {
   line-height: 6.625rem !important;
 }
 
+.btnSignup {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+}
+
 .logo {
   height: 36.23px;
   width: 35px;
@@ -10668,25 +10674,6 @@ h3 {
   }
 }
 
-@media (max-width: 991.98px) {
-  .serDesBg {
-    background-image: url("../../assets/img/FeaturesMobileBG.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-.btnSignup {
-  width: 150px;
-  height: 45px;
-  border-radius: 50px;
-}
-
-.borderRight {
-  border-right: 2px solid #EEEFF2;
-  height: 125.57px;
-}
-
 .btnGetStarted {
   height: 60px;
   width: 250px;
@@ -10694,31 +10681,6 @@ h3 {
   -webkit-box-shadow: -5px 30px 38px -11px #f53838;
   -moz-box-shadow: -5px 30px 38px -11px #f53838;
   box-shadow: -5px 30px 38px -11px #f53838;
-}
-
-.btnSelect {
-  width: 177.88px;
-  height: 45px;
-  border: 2px solid #F53838;
-  box-sizing: border-box;
-  border-radius: 50px;
-}
-
-.btnSubscribe {
-  width: 250px;
-  height: 60px;
-  background: #F53838;
-  border-radius: 10px;
-  -webkit-box-shadow: -5px 30px 38px -11px #f53838;
-  -moz-box-shadow: -5px 30px 38px -11px #f53838;
-  box-shadow: -5px 30px 38px -11px #f53838;
-}
-
-.infoCard {
-  border: none !important;
-  -webkit-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
-  box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
 }
 
 .bubble {
@@ -10732,20 +10694,19 @@ h3 {
   justify-content: center;
 }
 
-.bubbleFooter {
-  display: flex;
-  background: #FFFFFF;
-  Width: 33.6px;
-  Height: 33.6px;
-  border-radius: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+.infoCard {
+  border: none !important;
+  -webkit-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
+  box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
 }
 
-.card-footer {
-  background: #F6F6F6;
-  border: none !important;
+@media (max-width: 991.98px) {
+  .serDesBg {
+    background-image: url("../../assets/img/FeaturesMobileBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .cardPersonalising {
@@ -10765,20 +10726,27 @@ h3 {
   box-shadow: -5px 30px 38px -11px #f53838;
 }
 
-.navbar-toggler .line1, .navbar-toggler .line2, .navbar-toggler .line3 {
-  width: 23px;
-  height: 3px;
-  margin: 5px;
-  transition: all 0.4s;
+.btnSelect {
+  width: 177.88px;
+  height: 45px;
+  border: 2px solid #F53838;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
-.navbar-toggler.show .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+
+.card-footer {
+  background: #F6F6F6;
+  border: none !important;
 }
-.navbar-toggler.show .line2 {
-  opacity: 0;
-}
-.navbar-toggler.show .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+
+.btnSubscribe {
+  width: 250px;
+  height: 60px;
+  background: #F53838;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px 30px 38px -11px #f53838;
+  -moz-box-shadow: -5px 30px 38px -11px #f53838;
+  box-shadow: -5px 30px 38px -11px #f53838;
 }
 
 .subscribeCard {
@@ -10787,6 +10755,17 @@ h3 {
   -webkit-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
   box-shadow: 38px 33px 96px -40px rgba(0, 0, 0, 0.75);
+}
+
+.bubbleFooter {
+  display: flex;
+  background: #FFFFFF;
+  Width: 33.6px;
+  Height: 33.6px;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
