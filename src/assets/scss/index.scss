@@ -2,27 +2,83 @@
 @import "bootstrap-dependencies";
 @import "fonts";
 
-header {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url("../img/images/header-img.jpeg") no-repeat center center /cover;
+
+.logo {
+  height: 36.23px;
+  width: 35px;
+}
+
+.btnSignup {
+  width: 150px;
+  height:45px ;
+  border-radius: 50px;
+}
+
+.borderRight{
+  border-right:  2px solid #EEEFF2;
+  height: 125.57px;
+}
+
+.btnGetStarted {
+  height: 60px;
+  width: 250px;
+  border-radius: 10px;
+
+}
+
+.btnSelect{
+  width: 177.88px;
+  height: 45px;
+  border: 2px solid #F53838;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 
 
-//navbar
-.nav-menu {
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
-  padding: 30px;
+.btnSubscribe{
+  width: 250px;
+  height: 60px;
+  background: #F53838;
+  border-radius: 10px;
 }
 
-.menu-item {
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: #eee;
-  transition: color 0.5s;
+
+.infoCard {
+  border: none!important;
+  -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+  box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
 }
 
-.menu-item:hover {
-  color: #70aed2;
+.bubble{
+  display: flex;
+  background: #FFECEC;
+  width: 55px;
+  height: 55px;
+  border-radius: 70px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-footer {
+  background: #F6F6F6;
+  border: none!important;
+}
+
+
+.cardPersonalising {
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+
+}
+.cardPersonalising:hover {
+  border-color: $primary;
+  .btnSelect{
+    background-color: #F53838;
+    color: white;
+  }
 }
 
 
@@ -48,88 +104,16 @@ header {
   }
 }
 
-.custom-navbar {
-  padding: 5px 30px;
-  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7));
-}
-
-//banner
-.banner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-
-}
-
-.banner-heading {
-  animation-name: anim;
-  animation-duration: 2s;
-}
-
-.banner-par {
-  animation-name: anim;
-  animation-duration: 2s;
-  animation-delay: .5s;
-  animation-fill-mode: backwards;
-}
-
-@keyframes anim {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
+.subscribeCard{
+    border-radius: 10px;
+    border: none!important;
+    -webkit-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+    -moz-box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
+    box-shadow: 38px 33px 96px -40px rgba(0,0,0,0.75);
   }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+
+
+.footer{
+  background-color: #F6F6F6;
 }
 
-
-//mission
-
-.mission {
-  background: #151f20;
-}
-
-.underline{
-  width: 150px;
-  border: 3px solid #eee;
-  margin: auto ;
-}
-
-.fromLeft{
-  animation-name: fromLeft;
-  animation-duration: 3s;
-}
-
-.fromRight{
-  animation-name: fromRight;
-  animation-duration: 3s;
-}
-
-
-
-@keyframes fromLeft {
-  0% {
-    transform: translateX(-120px);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes fromRight {
-  0% {
-    transform: translateX(30px);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-//end of mission
